@@ -1,0 +1,16 @@
+{
+    "histoires": [
+        {
+            "titre": "Mon premier caca",
+            "corps": "lorem ipsum blablabla",
+            "auteur": "zaack",
+            "id": 1
+        },
+        {
+            "titre": "Mon second caca",
+            "corps": "lorem ipsum blablabla",
+            "auteur": "zaack",
+            "id": 2
+        }
+    ]
+}

@@ -1,11 +1,16 @@
-import CacaList from './CacaList';
-import Welcome from './Welcome';
+import Caca from './utils/Caca';
+import Welcome from './Components/Welcome';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="contenu">
-      <Welcome />
-    </div>    
+    <Router>
+      <div className="contenu">
+        <Welcome />
+        <Caca />
+      </div>
+    </Router>
+       
   );
 }
 

@@ -10,7 +10,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 15vh;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 header h1 {

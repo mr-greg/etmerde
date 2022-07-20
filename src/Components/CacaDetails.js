@@ -42,11 +42,18 @@ const CacaDetails = () => {
         setIsLoading(true);
 
         fetch('http://localhost:8000/histoires/' + histoire.id, {
-            method: 'PUT',
-            headers: {"Content-Type": "application/json" },
+            method: 'DELETE'
+        }).then( () => {
+            console.log("histoire supprimée")
+        })
+
+        fetch('http://localhost:8000/histoires', {
+            method: 'POST',
+            headers: {"Content-Type": "application/json"},
             body: JSON.stringify(histoireFetch)
         }).then( () => {
             setIsLoading(false);
+            history.push('/');
         })
     }
 
@@ -92,7 +99,7 @@ const CacaDetails = () => {
                     <textarea
                         type="text"
                         required
-                        minLength="50"
+                        // minLength="50"
                         onChange={ (e) => setCorps(e.target.value) }
                     />
 
@@ -105,9 +112,11 @@ const CacaDetails = () => {
                         <option value="Léna">Léna</option>
                     </select>
 
-                    <button className="buttonMainStyle buttonModifier">Confirmer</button>
-                    <button className="buttonMainStyle buttonAnnuler">Annuler</button>
+                    { !isLoading && <button className="buttonMainStyle buttonModifier" onClick={handleSubmit}>Confirmer</button> }
+                    { isLoading && <button className="buttonMainStyle buttonModifier">Modifier</button>}
+                    
                 </form>
+                <button className="buttonMainStyle buttonAnnuler" onClick={handleClickModifyCancel}>Annuler</button>
             </div>
             )}
             

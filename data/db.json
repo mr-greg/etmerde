@@ -1,16 +1,16 @@
 {
-    "histoires": [
-        {
-            "titre": "Mon premier caca",
-            "corps": "\"Aujourd'hui, je me balade dans la rue avec une copine. Devant nous marche une dame portant un manteau jaune. Je dis à ma copine : \"Regarde, ils ont fait un lâcher de canaris.\" Le canari en question se retourne, me regarde, et me dit : \"Je préfère ressembler à un canari plutôt qu'à un thon !\"",
-            "auteur": "zaack",
-            "id": 1
-        },
-        {
-            "titre": "Mon second caca",
-            "corps": "\"Aujourd'hui, celibataire quelques années, je me suis rendu compte que mon cas était particulièrement désespéré quand mes grands-parents se sont dit que ce serait une bonne idée de me donner des conseils de drague.\"",
-            "auteur": "zaack",
-            "id": 2
-        }
-    ]
+  "histoires": [
+    {
+      "titre": "Mon premier caca",
+      "corps": "\"Aujourd'hui, je me balade dans la rue avec une copine. Devant nous marche une dame portant un manteau jaune. Je dis à ma copine : \"Regarde, ils ont fait un lâcher de canaris.\" Le canari en question se retourne, me regarde, et me dit : \"Je préfère ressembler à un canari plutôt qu'à un thon !\"",
+      "auteur": "zaack",
+      "id": 1
+    },
+    {
+      "titre": "Mon second caca",
+      "corps": "\"Aujourd'hui, celibataire quelques années, je me suis rendu compte que mon cas était particulièrement désespéré quand mes grands-parents se sont dit que ce serait une bonne idée de me donner des conseils de drague.\"",
+      "auteur": "zaack",
+      "id": 2
+    }
+  ]
 }

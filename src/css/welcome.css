@@ -3,6 +3,7 @@
 body {
   background: linear-gradient(90deg,#392955 0%,#3a6294 100%) fixed;
   font-family: raleway, sans-serif;
+  margin: 0px;
 }
 
 header {
@@ -28,8 +29,9 @@ header p {
   color: white;
 }
 
-header button {
+header .ajouter {
   padding: 10px;
+  text-decoration: none;
           
   background-image: linear-gradient(to right, #614385 0%, #516395  51%, #614385  100%);
   margin: 10px;

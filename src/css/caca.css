@@ -1,10 +1,12 @@
 .listeCaca {
     display: flex;
     justify-content: center;
+    background: rgba(0,0,0,.4);
 }
 
 .histoire-list {
-    max-width: 40vw;
+    max-width: 50vw;
+    margin: 50px 0;
 }
 
 .histoire-preview {
@@ -12,5 +14,26 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 35px 0;
-    
+    padding: 15px 50px;
+    /* background:radial-gradient(circle at 50% 50%, #e088c8be 0%, #C0A3E5CF 100%); */
+    /* background:linear-gradient(90deg, #f588d877 0%, #c0a3e588 100%); */
+    background:linear-gradient(90deg, #516395 0%, #6143858e 100%);
+    border-radius: 15px 5px 15px 5px;
+    color: white;
+}
+
+.histoire-preview p {
+    font-size: 18px;
+}
+
+.histoire-preview .link {
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.histoire-preview .modify {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
 }

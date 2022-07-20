@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './css/welcome.css';
 import App from './App';
 import './css/caca.css';
+import './css/cacaDetails.css';
+import './css/create.css';
+import './css/notFound.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

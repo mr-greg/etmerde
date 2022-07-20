@@ -1,0 +1,55 @@
+.pageCacaDetails {
+    margin-top: 15vh
+}
+
+.pageCacaDetails h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contenuCacaDetails {
+    display: flex;
+    justify-content: center;
+    background: rgba(0,0,0,.4);
+}
+
+.cacaDetails {
+    max-width: 50vw;
+    margin: 25px 0;
+}
+
+.cacaPreview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 35px 0;
+    padding: 15px 50px;
+    background:linear-gradient(90deg, #516395 0%, #6143858e 100%);
+    border-radius: 15px 5px 15px 5px;
+    color: white;
+}
+
+.pageCacaDetails .buttonMainStyle {
+    text-decoration: none;
+            
+    background-image: linear-gradient(to right, #614385 0%, #516395  51%, #614385  100%);
+    margin: 35px 20px;
+    padding: 15px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 2px #eee;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}

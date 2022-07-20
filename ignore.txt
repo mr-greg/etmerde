@@ -1,0 +1,14 @@
+CacaDetails.Js :
+    clique sur le bouton modifier
+    fait apparaître un formulaire (qui était en display none)
+    les input du formulaire = valeurs du caca en cours
+    quand on confirme, on actualise les valeurs ? voir avec un fetch
+    
+Étapes :
+    Créer un formulaire dans une div en display none - OK
+
+    Fetch notre data et la stocker dans un array
+    Update cet array
+    Push cet array en update ?
+
+    Si trop bloqué, techniquement tu peux delete ce que t'as fetch et push en post le truc modifié, mais à éviter

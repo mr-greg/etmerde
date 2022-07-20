@@ -1,5 +1,5 @@
+import { Link } from 'react-router-dom';
 import logo from '../img/etMerdeLogo.png';
-import Caca from '../utils/Caca';
 
 const Welcome = () => {
 
@@ -13,9 +13,9 @@ const Welcome = () => {
                 <h1>Et merde...</h1>
                 <img src={logo} alt="" />
                 <p>Le moment où tu réalise que t'as fait du caca</p>
-                <button onClick={handleClick}>Raconter mon histoire</button>
+                <Link className="ajouter" to="/ajouter">Raconter mon histoire</Link>
             </header>
-        </div> 
+        </div>
         
     );
 }

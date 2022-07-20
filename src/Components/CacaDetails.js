@@ -41,12 +41,14 @@ const CacaDetails = () => {
         const histoireFetch = {titre, corps, auteur};
         setIsLoading(true);
 
+        // Suppression de l'ancien poste
         fetch('http://localhost:8000/histoires/' + histoire.id, {
             method: 'DELETE'
         }).then( () => {
             console.log("histoire supprimée")
         })
 
+        // Ajout du nouveau poste
         fetch('http://localhost:8000/histoires', {
             method: 'POST',
             headers: {"Content-Type": "application/json"},

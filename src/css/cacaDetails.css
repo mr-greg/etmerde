@@ -1,17 +1,19 @@
 .pageCacaDetails {
-    margin-top: 15vh
+    margin-top: 15vh;
+
 }
+
 
 .pageCacaDetails h1 {
     color: white;
     text-align: center;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .contenuCacaDetails {
     display: flex;
     justify-content: center;
-    background: rgba(0,0,0,.4);
 }
 
 .cacaDetails {
@@ -28,6 +30,7 @@
     background:linear-gradient(90deg, #516395 0%, #6143858e 100%);
     border-radius: 15px 5px 15px 5px;
     color: white;
+    box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.47);
 }
 
 .pageCacaDetails .buttonMainStyle {
@@ -46,10 +49,77 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.47);
 }
 
-.buttons {
-    margin-top: 15px;
+.buttonsDetails {
+    margin: 15px 0 50px;
     display: flex;
     justify-content: center;
+}
+
+
+
+/* FORMULAIRE MODIFICATION */
+
+.formulaireModif {
+    /* display: none; */
+    background: rgba(0,0,0,.4);
+    padding: 80px 0;
+}
+
+.formulaireModif h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.formulaireModif .separateur {
+    display: block;
+    height: 35px;
+    border: 0;
+    border-top: 3px solid #eeeeee;
+    margin: 35px auto 50px;
+    padding: 0;
+    width: 80px;
+}
+
+.formulaireModif form {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.formulaireModif label {
+    text-align: left;
+    display: block;
+    color: white;
+}
+
+.formulaireModif textarea {
+    height: 140px;
+}
+
+
+
+.formulaireModif input, .formulaireModif textarea, .formulaireModif select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 15px 0 45px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    background: rgba(0, 0, 0, 0.37);
+    padding: 15px;
+    color: white;
+}
+
+.formulaireModif .buttonModifier, .formulaireModif .buttonAnnuler {
+    display: block;
+    margin: 50px auto;
+    box-shadow: none;
+}
+
+.formulaireModif .buttonAnnuler {
+    padding: 15px 62px;
 }

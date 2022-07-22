@@ -3,10 +3,6 @@ import logo from '../img/etMerdeLogo.png';
 
 const Welcome = () => {
 
-    const handleClick = () => {
-        console.log('coucou');
-    }
-
     return (
         <div className="welcome">
             <header>
